@@ -45,7 +45,7 @@
             // headerLabel
             // 
             this.headerLabel.AutoSize = true;
-            this.headerLabel.Font = new System.Drawing.Font("Segoe UI Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.headerLabel.Font = new System.Drawing.Font("Segoe UI Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.headerLabel.ForeColor = System.Drawing.Color.SeaGreen;
             this.headerLabel.Location = new System.Drawing.Point(199, 9);
             this.headerLabel.Margin = new System.Windows.Forms.Padding(12, 0, 12, 0);
@@ -66,7 +66,7 @@
             // placementNumberLabel
             // 
             this.placementNumberLabel.AutoSize = true;
-            this.placementNumberLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.placementNumberLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.placementNumberLabel.Location = new System.Drawing.Point(124, 158);
             this.placementNumberLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.placementNumberLabel.Name = "placementNumberLabel";
@@ -86,7 +86,7 @@
             // placementNameLabel
             // 
             this.placementNameLabel.AutoSize = true;
-            this.placementNameLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.placementNameLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.placementNameLabel.Location = new System.Drawing.Point(147, 227);
             this.placementNameLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.placementNameLabel.Name = "placementNameLabel";
@@ -106,7 +106,7 @@
             // prizeAmountLabel
             // 
             this.prizeAmountLabel.AutoSize = true;
-            this.prizeAmountLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prizeAmountLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.prizeAmountLabel.Location = new System.Drawing.Point(87, 295);
             this.prizeAmountLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.prizeAmountLabel.Name = "prizeAmountLabel";
@@ -118,7 +118,7 @@
             // versusLabel
             // 
             this.versusLabel.AutoSize = true;
-            this.versusLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.versusLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.versusLabel.Location = new System.Drawing.Point(223, 335);
             this.versusLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.versusLabel.Name = "versusLabel";
@@ -138,7 +138,7 @@
             // prizePercentageLabel
             // 
             this.prizePercentageLabel.AutoSize = true;
-            this.prizePercentageLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prizePercentageLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.prizePercentageLabel.Location = new System.Drawing.Point(59, 371);
             this.prizePercentageLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.prizePercentageLabel.Name = "prizePercentageLabel";
@@ -154,13 +154,14 @@
             this.createPrizeButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGreen;
             this.createPrizeButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleTurquoise;
             this.createPrizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.createPrizeButton.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.createPrizeButton.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.createPrizeButton.Location = new System.Drawing.Point(218, 463);
             this.createPrizeButton.Name = "createPrizeButton";
             this.createPrizeButton.Size = new System.Drawing.Size(180, 39);
             this.createPrizeButton.TabIndex = 22;
             this.createPrizeButton.Text = "Create Prize";
             this.createPrizeButton.UseVisualStyleBackColor = false;
+            this.createPrizeButton.Click += new System.EventHandler(this.createPrizeButton_Click);
             // 
             // CreatePrizeForm
             // 
@@ -179,7 +180,7 @@
             this.Controls.Add(this.placementNumberTextBox);
             this.Controls.Add(this.placementNumberLabel);
             this.Controls.Add(this.headerLabel);
-            this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "CreatePrizeForm";
